@@ -15,7 +15,7 @@ function Title() {
               style={{ width: "65%", height: "65%" }}
             />
           </Link>
-          <h3 style={{ marginTop: 20 }}>The Orthodox Project!!!</h3>
+          <h3 style={{ marginTop: 20 }}>The Orthodox Project</h3>
         </div>
       </header>
     </div>
