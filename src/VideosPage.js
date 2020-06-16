@@ -32,7 +32,6 @@ export default function VideosPage() {
           Video 3
         </Button>
       </div>
-      <ReactPlayer url="https://www.youtube.com/watch?v=iL7nX9W3aOU" />
       <Bugs />
     </div>
   );
