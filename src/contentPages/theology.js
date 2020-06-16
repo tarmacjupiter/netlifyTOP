@@ -66,7 +66,7 @@ export default function Theology() {
       <div className="buttonContainer">
         <Button variant="danger" size="lg" block>
           <Link
-            style={{ color: "black", textDecoration: "none" }}
+            style={{ color: "white", textDecoration: "none" }}
             to="/tableofcontents/theology/abrahamicreligions"
           >
             Abrahamic Religions
@@ -74,7 +74,7 @@ export default function Theology() {
         </Button>
         <Button variant="danger" size="lg" block>
           <Link
-            style={{ color: "black", textDecoration: "none" }}
+            style={{ color: "white", textDecoration: "none" }}
             to="/tableofcontents/theology/indianreligions"
           >
             Indian Religions
