@@ -7,6 +7,7 @@ import CardContent from "@material-ui/core/CardContent";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import "./Card.css";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles({
   root: {
@@ -14,10 +15,6 @@ const useStyles = makeStyles({
     margin: 10,
   },
 });
-
-function newYouTubeTab() {
-  window.open("https://www.youtube.com");
-}
 
 export default function ImgMediaCard() {
   const classes = useStyles();
@@ -41,8 +38,8 @@ export default function ImgMediaCard() {
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button size="small" color="primary" onClick={newYouTubeTab}>
-            To Videos
+          <Button size="small" color="primary">
+            <Link to="/videos">To Videos</Link>
           </Button>
         </CardActions>
       </Card>

@@ -18,6 +18,7 @@ import copticOrthodoxy from "./contentPages/subContentPages/suborthodoxy/copticO
 import greekOrthodoxy from "./contentPages/subContentPages/suborthodoxy/greekOrthodoxy";
 import abrahamicReligions from "./contentPages/subContentPages/subtheology/abrahamicRel";
 import indianReligions from "./contentPages/subContentPages/subtheology/indianRel";
+import VideosPage from "./VideosPage";
 
 //Routes
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={MainPage} />
         <Route exact path="/tableofcontents" component={TableOfContents} />
+        <Route exact path="/videos" component={VideosPage} />
         <Route exact path="/tableofcontents/orthodoxy" component={Orthodox} />
         <Route exact path="/tabelofcontents/theology" component={Theology} />
         <Route
