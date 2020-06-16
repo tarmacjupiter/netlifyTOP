@@ -70,7 +70,7 @@ export default function Orthodox() {
       <div className="buttonContainer">
         <Button variant="danger" size="lg" block>
           <Link
-            style={{ color: "black" }}
+            style={{ color: "black", textDecoration: "none" }}
             to="/tableofcontents/orthodoxy/copticorthodoxy"
           >
             Coptic Orthodoxy
@@ -78,7 +78,7 @@ export default function Orthodox() {
         </Button>
         <Button variant="danger" size="lg" block>
           <Link
-            style={{ color: "black" }}
+            style={{ color: "black", textDecoration: "none" }}
             to="/tableofcontents/orthodoxy/greekorthodoxy"
           >
             Greek Orthodoxy

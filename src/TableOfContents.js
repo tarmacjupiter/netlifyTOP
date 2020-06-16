@@ -17,13 +17,16 @@ export default function TableOfContents() {
       </div>
       <div className="buttonContainer">
         <Button variant="danger" size="lg" block>
-          <Link style={{ color: "black" }} to="/tableofcontents/orthodoxy/">
+          <Link
+            style={{ color: "black", textDecoration: "none" }}
+            to="/tableofcontents/orthodoxy/"
+          >
             Orthodoxy
           </Link>
         </Button>
         <Button variant="danger" size="lg" block>
           <Link
-            style={{ color: "black" }}
+            style={{ color: "black", textDecoration: "none" }}
             to="/tabelofcontents/theology"
             className="linkText"
           >
@@ -32,7 +35,7 @@ export default function TableOfContents() {
         </Button>
         <Button variant="danger" size="lg" block>
           <Link
-            style={{ color: "black" }}
+            style={{ color: "black", textDecoration: "none" }}
             to="/tableofcontents/apologetics"
             className="linkText"
           >
