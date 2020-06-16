@@ -19,6 +19,7 @@ import greekOrthodoxy from "./contentPages/subContentPages/suborthodoxy/greekOrt
 import abrahamicReligions from "./contentPages/subContentPages/subtheology/abrahamicRel";
 import indianReligions from "./contentPages/subContentPages/subtheology/indianRel";
 import VideosPage from "./VideosPage";
+import EasterEgg from "./EasterEgg";
 
 //Routes
 function App() {
@@ -26,6 +27,11 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/" component={MainPage} />
+        <Route
+          exact
+          path="/thisisanextremelylongsentencehopeyoudontmessitup"
+          component={EasterEgg}
+        />
         <Route exact path="/tableofcontents" component={TableOfContents} />
         <Route exact path="/videos" component={VideosPage} />
         <Route exact path="/tableofcontents/orthodoxy" component={Orthodox} />

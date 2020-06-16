@@ -2,6 +2,7 @@ import React from "react";
 import Title from "./Title";
 import Bugs from "./Bugs";
 import { Button } from "react-bootstrap";
+import ReactPlayer from "react-player";
 
 function video1() {
   window.open("https://photos.app.goo.gl/vDAvdYe4YrBq2icz8");
@@ -31,6 +32,7 @@ export default function VideosPage() {
           Video 3
         </Button>
       </div>
+      <ReactPlayer url="https://www.youtube.com/watch?v=iL7nX9W3aOU" />
       <Bugs />
     </div>
   );
