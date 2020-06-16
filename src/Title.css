@@ -1,0 +1,11 @@
+.Title {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+  background-color: #8f100d;
+  color: #fff;
+  text-align: center;
+}

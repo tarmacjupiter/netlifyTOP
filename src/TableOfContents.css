@@ -1,0 +1,16 @@
+.headerText {
+  text-align: center;
+}
+
+.buttonContainer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+}
+
+.linkText {
+  color: black;
+}
