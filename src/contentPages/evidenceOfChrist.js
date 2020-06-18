@@ -29,6 +29,7 @@ export default function evidenceOfChrist() {
           style={{ marginRight: 10 }}
           width={640}
           height={430}
+          controls={true}
         />
       </div>
       <Bugs />
