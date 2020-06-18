@@ -4,7 +4,6 @@ import Title from "./Title";
 import Card from "./Card";
 import Slides from "./Slides";
 import { Button } from "react-bootstrap";
-import ReactGoogleSlides from "react-google-slides";
 
 function newFormTab() {
   window.open(
@@ -29,13 +28,6 @@ export default function MainPage() {
           Bugs
         </Button>
       </div>
-      <ReactGoogleSlides
-        width={"600rem"}
-        height={"400rem"}
-        slidesLink="https://docs.google.com/presentation/d/1l1Y8SnH0CcTz7JHilU4hk8yXyjUHCvbDJ5tv3beOPSE/edit?usp=sharing"
-        showControls
-        slideDuration={999999}
-      />
     </div>
   );
 }

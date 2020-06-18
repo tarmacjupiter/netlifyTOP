@@ -20,6 +20,7 @@ import abrahamicReligions from "./contentPages/subContentPages/subtheology/abrah
 import indianReligions from "./contentPages/subContentPages/subtheology/indianRel";
 import VideosPage from "./VideosPage";
 import EasterEgg from "./EasterEgg";
+import evidenceOfChrist from "./contentPages/evidenceOfChrist";
 
 //Routes
 function App() {
@@ -40,6 +41,11 @@ function App() {
           exact
           path="/tableofcontents/apologetics"
           component={Apologetics}
+        />
+        <Route
+          exact
+          path="/tableofcontents/evidenceofchrist"
+          component={evidenceOfChrist}
         />
         <Route
           exact

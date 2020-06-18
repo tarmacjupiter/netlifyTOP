@@ -42,6 +42,15 @@ export default function TableOfContents() {
             Apologetics
           </Link>
         </Button>
+        <Button variant="danger" size="lg" block>
+          <Link
+            style={{ color: "white", textDecoration: "none" }}
+            to="/tableofcontents/evidenceofChrist"
+            className="linkText"
+          >
+            Evidence of Christ
+          </Link>
+        </Button>
       </div>
 
       <Bugs />
