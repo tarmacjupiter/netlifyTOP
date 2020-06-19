@@ -52,6 +52,15 @@ export default function TableOfContents() {
             Evidence of Christ
           </Link>
         </Button>
+        <Button variant="danger" size="lg" block>
+          <Link
+            style={{ color: "white", textDecoration: "none" }}
+            to="/tableofcontents/ihaveadream"
+            className="linkText"
+          >
+            I Have A Dream
+          </Link>
+        </Button>
       </div>
 
       <Bugs />

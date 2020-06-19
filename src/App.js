@@ -24,6 +24,7 @@ import evidenceOfChrist from "./contentPages/evidenceOfChrist";
 import whyOrthodox from "./contentPages/whyOrthodox";
 import criticalDoctrines from "./contentPages/8criticalDoctrines";
 import fallenNature from "./contentPages/fallenNature";
+import haveDream from "./contentPages/haveDream";
 
 //Routes
 function App() {
@@ -56,6 +57,11 @@ function App() {
           exact
           path="/tableofcontents/evidenceofchrist"
           component={evidenceOfChrist}
+        />
+        <Route
+          exact
+          path="/tableofcontents/ihaveadream"
+          component={haveDream}
         />
         <Route
           exact
