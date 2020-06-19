@@ -15,6 +15,9 @@ export default function MainPage() {
   return (
     <div>
       <Title />
+      <h4 style={{ textAlign: "center", marginBottom: 10 }}>
+        Press the TOP Logo to Navigate Home
+      </h4>
       <div className="Card">
         <Card />
       </div>

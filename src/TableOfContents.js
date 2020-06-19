@@ -11,9 +11,7 @@ export default function TableOfContents() {
     <div>
       <Title />
       <div>
-        <h2 className="headerText">
-          Below Are Some of the General Subjects Covered
-        </h2>
+        <h2 className="headerText">Some Basics to Review</h2>
       </div>
       <div className="buttonContainer">
         <Button variant="danger" size="lg" block>
@@ -42,6 +40,9 @@ export default function TableOfContents() {
             Apologetics
           </Link>
         </Button>
+        <h2 className="headerText" style={{ marginBottom: 30, marginTop: 30 }}>
+          Google Slide Presentations
+        </h2>
         <Button variant="danger" size="lg" block>
           <Link
             style={{ color: "white", textDecoration: "none" }}

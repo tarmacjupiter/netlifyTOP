@@ -21,6 +21,9 @@ import indianReligions from "./contentPages/subContentPages/subtheology/indianRe
 import VideosPage from "./VideosPage";
 import EasterEgg from "./EasterEgg";
 import evidenceOfChrist from "./contentPages/evidenceOfChrist";
+import whyOrthodox from "./contentPages/whyOrthodox";
+import criticalDoctrines from "./contentPages/8criticalDoctrines";
+import fallenNature from "./contentPages/fallenNature";
 
 //Routes
 function App() {
@@ -35,6 +38,13 @@ function App() {
         />
         <Route exact path="/tableofcontents" component={TableOfContents} />
         <Route exact path="/videos" component={VideosPage} />
+        <Route exact path="/videos/whyorthodox" component={whyOrthodox} />
+        <Route
+          exact
+          path="/videos/8criticaldoctrines"
+          component={criticalDoctrines}
+        />
+        <Route exact path="/videos/fallennature" component={fallenNature} />
         <Route exact path="/tableofcontents/orthodoxy" component={Orthodox} />
         <Route exact path="/tabelofcontents/theology" component={Theology} />
         <Route
