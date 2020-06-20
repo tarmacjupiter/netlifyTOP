@@ -61,6 +61,15 @@ export default function TableOfContents() {
             I Have A Dream
           </Link>
         </Button>
+        <Button variant="danger" size="lg" block>
+          <Link
+            style={{ color: "white", textDecoration: "none" }}
+            to="/tableofcontents/apolotalkseries"
+            className="linkText"
+          >
+            Apolo Talk Series
+          </Link>
+        </Button>
       </div>
 
       <Bugs />

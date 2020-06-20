@@ -7,7 +7,7 @@ import {
   Redirect,
 } from "react-router-dom";
 
-//Pages
+//PAGES
 import MainPage from "./MainPage";
 import NotFoundPage from "./404";
 import TableOfContents from "./TableOfContents";
@@ -25,8 +25,12 @@ import whyOrthodox from "./contentPages/whyOrthodox";
 import criticalDoctrines from "./contentPages/8criticalDoctrines";
 import fallenNature from "./contentPages/fallenNature";
 import haveDream from "./contentPages/haveDream";
+import apoloTableOfContents from "./contentPages/Apolo Series/apoloTableOfContents";
+import apoloPartOne from "./contentPages/Apolo Series/apoloPartOne";
+import apoloPartTwo from "./contentPages/Apolo Series/apoloPartTwo";
+import apoloPartThree from "./contentPages/Apolo Series/apoloPartThree";
 
-//Routes
+//ROUTES
 function App() {
   return (
     <Router>
@@ -63,6 +67,28 @@ function App() {
           path="/tableofcontents/ihaveadream"
           component={haveDream}
         />
+        <Route
+          exact
+          path="/tableofcontents/apolotalkseries"
+          component={apoloTableOfContents}
+        />
+        {/* APOLO SERIES START */}
+        <Route
+          exact
+          path="/tableofcontents/apolotalkseries/apolotalkpart1"
+          component={apoloPartOne}
+        />
+        <Route
+          exact
+          path="/tableofcontents/apolotalkseries/apolotalkpart2"
+          component={apoloPartTwo}
+        />
+        <Route
+          exact
+          path="/tableofcontents/apolotalkseries/apolotalkpart3"
+          component={apoloPartThree}
+        />
+        {/* APOLO SERIES END */}
         <Route
           exact
           path="/tableofcontents/orthodoxy/copticorthodoxy"

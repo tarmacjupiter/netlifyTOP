@@ -25,7 +25,7 @@ export default function haveDream() {
           slideDuration={999999}
         />
         <ReactPlayer
-          url="https://www.youtube.com/watch?v=l_WSRSUvw2s"
+          url="https://www.youtube.com/watch?v=kCYPV8xlT2M"
           style={{ marginRight: 10 }}
           width={640}
           height={430}
